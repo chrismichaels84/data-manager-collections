@@ -4,10 +4,7 @@
   "keywords": [
     "data", "collection", "container", "manager",
     "nest", "nested", "array", "dot notation",
-    "access", "deep data", 
-    "dependency injection", "ioc",
-    "config", "configuration", "defaults",
-    "json"
+    "access", "deep data", "collections", "helpers"
   ],
   "homepage": "https://github.com/chrismichaels84/data-manager-collections",
   "license": "MIT",
