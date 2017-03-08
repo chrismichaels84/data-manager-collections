@@ -1,4 +1,20 @@
+[![Latest Version](https://img.shields.io/github/release/chrismichaels84/data-manager-collections.svg?style=flat-square)](https://github.com/chrismichaels84/data-manager-collections/releases)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![Build Status](https://img.shields.io/travis/chrismichaels84/data-manager-collections/master.svg?style=flat-square)](https://travis-ci.org/chrismichaels84/data-manager-collections)
+[![Coverage Status](https://coveralls.io/repos/chrismichaels84/data-manager-collections/badge.svg?branch=master)](https://coveralls.io/r/chrismichaels84/data-manager-collections?branch=master)
+[![Total Downloads](https://img.shields.io/packagist/dt/michaels/data-manager-collections.svg?style=flat-square)](https://packagist.org/packages/michaels/data-manager-collections)
+
 # Data Manager and Collections
+This repo is an addition to http://github.com/michaels/data-manager.
+You do NOT need to require that specifically. Composer will do its magic.
+
+## Install
+Via Composer
+``` bash
+$ composer require michaels/data-manager-collections
+```
+
+## Overview
 On top of being a powerful data-manager, `Manager` can be used as an array collection.
 This means it provides several helper methods to work with the data.
 
@@ -11,8 +27,8 @@ There should be little or no difference in the behavior.
 ## Setup and Usage
 Simply include the `Michaels\Manager\Collections` in your class.
 
-**NOTE THAT** `ManagesIocTrait` depends on ManagesItemsTrait. 
-If you to use `ManagesIocTrait` without `ManagesItemsTrait`, you will get all sorts of errors.
+**NOTE THAT** `CollectionTrait` depends on ManagesItemsTrait. 
+If you to use `CollectionTrait` without `ManagesItemsTrait`, you will get all sorts of errors.
 
 ### Returning Collections
 Once you have that included, it will (by default) return a collection every time you ask for an array.
@@ -99,3 +115,17 @@ class MyCoolCollection implements ManagesItemsInterface
     }
 }
 ```
+
+## Contributing
+Contributions are welcome and will be fully credited. Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+
+## Security
+If you discover any security related issues, please email chrismichaels84@gmail.com instead of using the issue tracker.
+
+## Credits
+- [Michael Wilson](https://github.com/chrismichaels84)
+- [Scott](https://github.com/smolinari)
+- Open an issue to join in!
+
+## License
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
